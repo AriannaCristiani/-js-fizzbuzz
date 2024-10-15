@@ -3,3 +3,14 @@
 //   SE multipli di 3 stampare la stringa “Fizz” al posto del numero 
 //      ALTRIMENTI SE multipli di 5 stampare la stringa "Buzz". 
 //           ALTRIMENTI per i numeri che sono sia multipli di 3 che di 5 stampare la stringa "FizzBuzz".
+
+
+
+//Stampare i numeri da 1 a 100:
+
+for (i = 0 ; i < 100 ; i ++ ) {
+    
+    let num = i + 1
+    console.log (num)
+}
+
