@@ -16,15 +16,16 @@ for (i = 0; i < 100; i++) {
     const resto3 = num % 3
     const resto5 = num % 5
 
+
     if (resto3 === 0) {
-        console.log('Fizz')
+        console.log('Fizz') //Se multipli di 3, stampare la stringa 'FIZZ'
     }
     else if (resto5 === 0) {
-        console.log('Buzz')
+        console.log('Buzz') //Se multipli di 5, stampare la stringa 'BUZZ'
     }
 
     else (`${resto3 === 0} && ${resto5 === 0}`); {
-        console.log('FizzBuzz')
+        console.log('FizzBuzz') //Se multipli di entrambi, stampare la stringa 'BUZZ-FIZZ'
     }
 
 
