@@ -20,11 +20,10 @@ for (i = 0; i < 100; i++) {
     if (resto3 === 0) {
         console.log('Fizz') //Se multipli di 3, stampare la stringa 'FIZZ'
     }
-    else if (resto5 === 0) {
+    if (resto5 === 0) {
         console.log('Buzz') //Se multipli di 5, stampare la stringa 'BUZZ'
     }
-
-    else (`${resto3 === 0} && ${resto5 === 0}`); {
+    if (`${resto3 === 0} && ${resto5 === 0}`); {
         console.log('FizzBuzz') //Se multipli di entrambi, stampare la stringa 'BUZZ-FIZZ'
     }
 
