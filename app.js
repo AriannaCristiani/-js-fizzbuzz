@@ -9,8 +9,29 @@
 //Stampare i numeri da 1 a 100:
 
 for (i = 0 ; i < 100 ; i ++ ) {
-    
+
     let num = i + 1
     console.log (num)
-}
+
+    	const resto3 = num % 3
+        const resto5 = num % 5
+
+	if (resto3 === 0) {
+ 		console.log('Fizz:' , num)
+    }
+        else if (resto5 === 0) {
+            console.log('Buzz:' , num)
+        }
+
+            else (`${resto3 === 0} && ${resto5 ===0}`);{
+                console.log('FizzBuzz:' , num)
+            }
+ 	
+     
+ }``
+
+
+
+
+
 
